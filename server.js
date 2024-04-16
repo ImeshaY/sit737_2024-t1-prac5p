@@ -17,6 +17,12 @@ app.get("/subTwoNumbers", (req,res)=>{
     res.json({statuscocde:200, data: result }); 
 });
 
+//intentional project error break
+app.get("/break", ()=>{
+    process.exit(1);
+})
+
+
 //calling subTwoNumbers function with 20 and 10 as arguments. The result 10 is logged to the console.
 console.log (subTwoNumbers(20,10));
 //define port number
