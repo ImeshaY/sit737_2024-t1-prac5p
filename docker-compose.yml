@@ -9,7 +9,7 @@
 # https://github.com/docker/awesome-compose
 services:
   container1:
-    image: imeshaaa/node-web-app
+    image: australia-southeast2-docker.pkg.dev/sit737-24t1-ilangasing-070121b/firstproject/node-web-app
     build:
       context: .
     environment:
